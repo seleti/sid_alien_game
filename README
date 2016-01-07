@@ -1,0 +1,60 @@
+Name: Siddartha Eleti
+Email: seleti@g.clemson.edu
+Date: 13 December 2012
+
+Proj No: Final
+
+Description: A Playable Animation
+
+------------------------------------------------------------------------------
+The Specs that I implemented are:
+
+Have implemented all the features of the Assignments.
+
+Help at the left top - it displays all the keys that the user needs to know.
+
+Multisprites - i have a propeller plane as a multiframe sprite.
+
+Lsystems - For the bullets / projectiles
+
+Multisprite Explosions- I am exploding all the UFO's on the press of the button <E>.  
+
+Parallax scrolling - I have two backgrounds which move at different speeds. (is there in both menu and game)
+
+Player- My multisprite can be controlled using the keys and can shoot bullets which are l-systems .
+
+Menu - Transparent menu buttons with parallax background scrolling for better visual effect.
+
+Sound- have nice music playing for game and the menu
+
+Story - Included ad story page which appears before starting a new game.
+
+------------------------------------------------------------------------------
+Menu :
+
+I have created a menu which has RESUME , NEW GAME, EXIT options ! 
+One can move between various states i.e. from the middle of the game one can switch to the menu and do the following:
+        start a new game(without having to quit and restart the game),
+        resume,
+        exit the game.
+AI:
+The enemy UFO's shoot in the direction of the player and they can be shot by the player. 
+
+Player: 
+
+player can move up and down while the x velocity is constant.(as a plane cannot stop in the air)
+
+-------------------------------------------------------------------------------
+What i did not do :
+
+Could not include the health feature for the player so that the player could die. 
+
+--------------------------------------------------------------------------------
+Sounds have been taken from www.sounddogs.com
+Drew all my sprites except for the master UFO at the end of the world. 
+
+
+
+
+
+

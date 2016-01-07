@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MenuSpec>
+
+<sprite>
+  <newFile>images/resume.png</newFile>
+  <newWidth>200</newWidth>
+  <newHeight>80</newHeight>
+  <newSrcX>0</newSrcX>
+  <newSrcY>0</newSrcY>
+  <newSpeedX>0</newSpeedX>
+  <newSpeedY>0</newSpeedY>
+  <newX>450</newX>
+  <newY>80</newY>
+  <newTransparency>true</newTransparency>
+</sprite>
+
+<sprite>
+  <openFile>images/new_game.png</openFile>
+  <openWidth>200</openWidth>
+  <openHeight>80</openHeight>
+  <openSrcX>0</openSrcX>
+  <openSrcY>0</openSrcY>
+  <openSpeedX>0</openSpeedX>
+  <openSpeedY>0</openSpeedY>
+  <openX>450</openX>
+  <openY>170</openY>
+  <openTransparency>true</openTransparency>
+</sprite>
+
+<sprite>
+  <saveFile>images/option.png</saveFile>
+  <saveWidth>200</saveWidth>
+  <saveHeight>80</saveHeight>
+  <saveSrcX>0</saveSrcX>
+  <saveSrcY>0</saveSrcY>
+  <saveSpeedX>0</saveSpeedX>
+  <saveSpeedY>0</saveSpeedY>
+  <saveX>450</saveX>
+  <saveY>260</saveY>
+  <saveTransparency>true</saveTransparency>
+</sprite>
+
+<sprite>
+  <helpFile>images/exit.png</helpFile>
+  <helpWidth>200</helpWidth>
+  <helpHeight>80</helpHeight>
+  <helpSrcX>0</helpSrcX>
+  <helpSrcY>0</helpSrcY>
+  <helpSpeedX>0</helpSpeedX>
+  <helpSpeedY>0</helpSpeedY>
+  <helpX>450</helpX>
+  <helpY>350</helpY>
+  <helpTransparency>true</helpTransparency>
+</sprite>
+
+<sprite>
+  <clickoffFile>images/clickoff.png</clickoffFile>
+  <clickoffWidth>40</clickoffWidth>
+  <clickoffHeight>40</clickoffHeight>
+  <clickoffSrcX>0</clickoffSrcX>
+  <clickoffSrcY>0</clickoffSrcY>
+  <clockoffSpeedX>0</clockoffSpeedX>
+  <clockoffSpeedY>0</clockoffSpeedY>
+  <clickoffX>0</clickoffX>
+  <clickoffY>0</clickoffY>
+  <clickoffTransparency>false</clickoffTransparency>
+</sprite>
+<sprite>
+  <clickonFile>images/clickon.png</clickonFile>
+  <clickonWidth>40</clickonWidth>
+  <clickonHeight>40</clickonHeight>
+  <clickonSrcX>0</clickonSrcX>
+  <clickonSrcY>0</clickonSrcY>
+  <clickonSpeedX>0</clickonSpeedX>
+  <clickonSpeedY>0</clickonSpeedY>
+  <clickonX>0</clickonX>
+  <clickonY>0</clickonY>
+  <clickonTransparency>false</clickonTransparency>
+</sprite>
+<sprite>
+  <glowFile>images/glow.png</glowFile>
+  <glowWidth>200</glowWidth>
+  <glowHeight>80</glowHeight>
+  <glowSrcX>0</glowSrcX>
+  <glowSrcY>0</glowSrcY>
+  <glowSpeedX>0</glowSpeedX>
+  <glowSpeedY>0</glowSpeedY>
+  <glowX>450</glowX>
+  <glowY>80</glowY>
+  <glowTransparency>false</glowTransparency>
+</sprite>
+
+</MenuSpec>

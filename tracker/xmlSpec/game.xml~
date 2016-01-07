@@ -1,0 +1,216 @@
+<?xml version = "1.0"?>
+
+<GameData>
+
+<view>
+  <viewWidth>950</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<screen>
+  <worldWidth>4000</worldWidth>
+  <worldHeight>480</worldHeight>
+</screen>
+
+<Font name="font">
+  <font>font/pirulen.ttf</font>
+  <fontSize>14</fontSize>
+  <maxStringSize>51</maxStringSize>
+</Font>
+
+<background>
+  <backFile>images/lowmountains_1460by480.bmp</backFile>
+  <backFrames>1</backFrames>
+  <backWidth>1460</backWidth>
+  <backHeight>480</backHeight>
+  <backMultiWidth>1460</backMultiWidth>
+  <backMultiHeight>480</backMultiHeight>
+  <backSrcX>0</backSrcX>
+  <backSrcY>0</backSrcY>
+</background>
+
+<bbackground>
+  <bbackFile>images/sun.bmp</bbackFile>
+  <bbackFrames>1</bbackFrames>
+  <bbackWidth>1460</bbackWidth>
+  <bbackHeight>480</bbackHeight>
+  <bbackMultiWidth>1460</bbackMultiWidth>
+  <bbackMultiHeight>480</bbackMultiHeight>
+  <bbackSrcX>0</bbackSrcX>
+  <bbackSrcY>0</bbackSrcY>
+</bbackground>
+
+<cloud>
+  <cloudFile>images/cloud_90by70.bmp</cloudFile>
+  <cloudCount>50  </cloudCount>
+  <cloudWidth>90</cloudWidth>
+  <cloudHeight>70</cloudHeight>
+  <cloudFrames>1</cloudFrames>
+  <cloudSrcX>0</cloudSrcX>
+  <cloudSrcY>0</cloudSrcY>
+  <cloudMultiWidth>127</cloudMultiWidth>
+  <cloudMultiHeight>88</cloudMultiHeight>
+  <cloudLoc cloudX="0" cloudY="0"/>
+  <cloudSpeed cloudXspeed="-7" cloudYspeed="-4"/>
+  <cloudMaxSpeed cloudMaxXspeed="0" cloudMaxYspeed="0"/>
+  <cloudTransparency>true</cloudTransparency>
+</cloud>
+
+<cloudChunk>
+  <cloudChunkFile>images/cloud_90by70.bmp</cloudChunkFile>
+  <cloudChunkSrcX>0</cloudChunkSrcX>
+  <cloudChunkSrcY>0</cloudChunkSrcY>
+  <cloudChunkWidth>127</cloudChunkWidth>
+  <cloudChunkHeight>88</cloudChunkHeight>
+  <cloudChunkLoc cloudChunkX="10" cloudChunkY="10"/>
+  <cloudChunkSpeed cloudChunkXspeed="250" cloudChunkYspeed="250"/>
+  <cloudChunkMaxSpeed cloudChunkMaxXspeed="350" cloudChunkMaxYspeed="300"/>
+  <cloudChunkTransparency>true</cloudChunkTransparency>
+  <cloudChunkSize>15</cloudChunkSize>
+  <cloudChunkDistance>100</cloudChunkDistance>
+</cloudChunk>
+
+<enemyChunk>
+  <enemyChunkFile>images/alien_sp1.png</enemyChunkFile>
+  <enemyChunkCount>20</enemyChunkCount>
+  <enemyChunkFrames>4</enemyChunkFrames>
+  <enemyChunkFrameInterval>40</enemyChunkFrameInterval>
+  <enemyChunkSrcX>0</enemyChunkSrcX>
+  <enemyChunkSrcY>0</enemyChunkSrcY>
+  <enemyChunkWidth>100</enemyChunkWidth>
+  <enemyChunkHeight>54</enemyChunkHeight>
+  <enemyChunkMultiWidth>400</enemyChunkMultiWidth>
+  <enemyChunkMultiHeight>54</enemyChunkMultiHeight>
+  <enemyChunkLoc  enemyChunkX="10"  enemyChunkY="10"/>
+  <enemyChunkSpeed  enemyChunkXspeed="300"  enemyChunkYspeed="0"/>
+  <enemyChunkMaxSpeed  enemyChunkMaxXspeed="350"  enemyChunkMaxYspeed="0"/>
+  <enemyChunkTransparency>true</enemyChunkTransparency>
+  <enemyChunkSize>15</enemyChunkSize>
+  <enemyChunkDistance>100</enemyChunkDistance>
+</enemyChunk>
+
+<enemy>
+  <enemyFile>images/alien_sp1.png</enemyFile>
+  <enemyCount>90</enemyCount>
+  <enemyFrames>4</enemyFrames>
+  <enemyFrameInterval>40</enemyFrameInterval>
+  <enemySrcX>0</enemySrcX>
+  <enemySrcY>0</enemySrcY>
+  <enemyWidth>100</enemyWidth>
+  <enemyHeight>54</enemyHeight>
+  <enemyMultiWidth>400</enemyMultiWidth>
+  <enemyMultiHeight>54</enemyMultiHeight>
+  <enemyLoc enemyX="10" enemyY="10"/>
+  <enemySpeed enemyXspeed="-180" enemyYspeed="40"/>
+  <enemyMaxSpeed enemyMaxXspeed="-180" enemyMaxYspeed="40"/>
+  <enemyTransparency>true</enemyTransparency>
+</enemy>
+
+<lsystemChunk>
+  <lsystemChunkFile>xmlSpec/brian.xml</lsystemChunkFile>
+  <lsystemChunkCount>3</lsystemChunkCount>
+  <lsystemChunkFrames>1</lsystemChunkFrames>
+  <lsystemChunkSrcX>0</lsystemChunkSrcX>
+  <lsystemChunkSrcY>0</lsystemChunkSrcY>
+  <lsystemChunkWidth>40</lsystemChunkWidth>
+  <lsystemChunkHeight>32</lsystemChunkHeight>
+  <lsystemChunkMultiWidth>80</lsystemChunkMultiWidth>
+  <lsystemChunkMultiHeight>70</lsystemChunkMultiHeight>
+  <lsystemChunkLoc lsystemChunkX="400" lsystemChunkY="400"/>
+  <lsystemChunkSpeed lsystemChunkXspeed="300" lsystemChunkYspeed="300"/>
+  <lsystemChunkMaxSpeed lsystemChunkMaxXspeed="400" lsystemChunkMaxYspeed="400"/>
+  <lsystemChunkTransparency>true</lsystemChunkTransparency>
+  <lsystemChunkSize>15</lsystemChunkSize>
+  <lsystemChunkDistance>100</lsystemChunkDistance>
+</lsystemChunk>
+
+<lsystem>
+  <lsystemFile>xmlSpec/brian.xml</lsystemFile>
+  <lsystemCount>0</lsystemCount>
+  <lsystemFrames>1</lsystemFrames>
+  <lsystemSrcX>0</lsystemSrcX>
+  <lsystemSrcY>0</lsystemSrcY>
+  <lsystemWidth>40</lsystemWidth>
+  <lsystemHeight>32</lsystemHeight>
+  <lsystemMultiWidth>80</lsystemMultiWidth>
+  <lsystemMultiHeight>70</lsystemMultiHeight>
+  <lsystemLoc lsystemX="400" lsystemY="400"/>
+  <lsystemSpeed lsystemXspeed="300" lsystemYspeed="0"/>
+  <lsystemMaxSpeed lsystemMaxXspeed="400" lsystemMaxYspeed="0"/>
+  <lsystemTransparency>true</lsystemTransparency>
+</lsystem>
+
+<ufoChunk>
+  <ufoChunkFile>images/ufo3.png</ufoChunkFile>
+  <ufoChunkCount>1</ufoChunkCount>
+  <ufoChunkFrames>3</ufoChunkFrames>
+  <ufoChunkFrameInterval>15</ufoChunkFrameInterval>
+  <ufoChunkSrcX>0</ufoChunkSrcX>
+  <ufoChunkSrcY>0</ufoChunkSrcY>
+  <ufoChunkWidth>313</ufoChunkWidth>
+  <ufoChunkHeight>200</ufoChunkHeight>
+  <ufoChunkMultiWidth>940</ufoChunkMultiWidth>
+  <ufoChunkMultiHeight>200</ufoChunkMultiHeight>
+  <ufoChunkLoc ufoChunkX="100" ufoChunkY="100"/>
+  <ufoChunkSpeed ufoChunkXspeed="300" ufoChunkYspeed="300"/>
+  <ufoChunkMaxSpeed ufoChunkMaxXspeed="300" ufoChunkMaxYspeed="300"/>
+  <ufoChunkTransparency>true</ufoChunkTransparency>
+  <ufoChunkSize>15</ufoChunkSize>
+  <ufoChunkDistance>100</ufoChunkDistance>
+</ufoChunk>
+
+<planeChunk>
+  <planeChunkFile>images/planes_anim_5.bmp</planeChunkFile>
+  <planeChunkCount>2</planeChunkCount>
+  <planeChunkFrames>4</planeChunkFrames>
+  <planeChunkFrameInterval>40</planeChunkFrameInterval>
+  <planeChunkSrcX>0</planeChunkSrcX>
+  <planeChunkSrcY>0</planeChunkSrcY>
+  <planeChunkWidth>120</planeChunkWidth>
+  <planeChunkHeight>75</planeChunkHeight>
+  <planeChunkMultiWidth>480</planeChunkMultiWidth>
+  <planeChunkMultiHeight>75</planeChunkMultiHeight>
+  <planeChunkLoc  planeChunkX="10"  planeChunkY="10"/>
+  <planeChunkSpeed  planeChunkXspeed="300"  planeChunkYspeed="0"/>
+  <planeChunkMaxSpeed  planeChunkMaxXspeed="350"  planeChunkMaxYspeed="300"/>
+  <planeChunkTransparency>true</planeChunkTransparency>
+    <planeChunkSize>15</planeChunkSize>
+  <planeChunkDistance>100</planeChunkDistance>
+</planeChunk>
+
+<plane>
+  <planeFile>images/planes_anim_5.bmp</planeFile>
+  <planeCount>2</planeCount>
+  <planeFrames>4</planeFrames>
+  <planeFrameInterval>40</planeFrameInterval>
+  <planeSrcX>0</planeSrcX>
+  <planeSrcY>0</planeSrcY>
+  <planeWidth>120</planeWidth>
+  <planeHeight>75</planeHeight>
+  <planeMultiWidth>480</planeMultiWidth>
+  <planeMultiHeight>75</planeMultiHeight>
+  <planeLoc planeX="10" planeY="10"/>
+  <planeSpeed planeXspeed="300" planeYspeed="0"/>
+  <planeMaxSpeed planeMaxXspeed="350" planeMaxYspeed="300"/>
+  <planeTransparency>true</planeTransparency>
+</plane>
+
+<ufo>
+  <ufoFile>images/ufo3.png</ufoFile>
+  <ufoCount>1</ufoCount>
+  <ufoFrames>3</ufoFrames>
+  <ufoFrameInterval>40</ufoFrameInterval>
+  <ufoSrcX>0</ufoSrcX>
+  <ufoSrcY>0</ufoSrcY>
+  <ufoWidth>313</ufoWidth>
+  <ufoHeight>200</ufoHeight>
+  <ufoMultiWidth>940</ufoMultiWidth>
+  <ufoMultiHeight>200</ufoMultiHeight>
+  <ufoLoc ufoX="0" ufoY="100"/>
+  <ufoSpeed ufoXspeed="0" ufoYspeed="100"/>
+  <ufoMaxSpeed ufoMaxXspeed="0" ufoMaxYspeed="100"/>
+  <ufoTransparency>true</ufoTransparency>
+</ufo>
+
+<story>This is the day when aliens once again attacked planet earth to kill all the humand and use our resources </story> 
+</GameData>

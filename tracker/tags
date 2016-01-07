@@ -1,0 +1,304 @@
+		Session.vim	/^noremap 	   " Allow increment with ctrl-i$/;"	m
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0	Session.vim	/^normal! 0$/;"	m
+010l	Session.vim	/^normal! 010l$/;"	m
+013l	Session.vim	/^normal! 013l$/;"	m
+016l	Session.vim	/^normal! 016l$/;"	m
+017l	Session.vim	/^normal! 017l$/;"	m
+01l	Session.vim	/^normal! 01l$/;"	m
+024l	Session.vim	/^normal! 024l$/;"	m
+02l	Session.vim	/^normal! 02l$/;"	m
+033l	Session.vim	/^normal! 033l$/;"	m
+034l	Session.vim	/^normal! 034l$/;"	m
+054l	Session.vim	/^normal! 054l$/;"	m
+<F1>	Session.vim	/^noremap <F1>    " Goto line 1$/;"	m
+<F2>	Session.vim	/^noremap <F2>    " Goto last line$/;"	m
+<Plug>NetrwBrowseX	Session.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<S-Insert>	Session.vim	/^map <S-Insert> <MiddleMouse>$/;"	m
+<S-Insert>	Session.vim	/^map! <S-Insert> <MiddleMouse>$/;"	m
+BUFSIZE	parseXML.h	/^const int BUFSIZE = 128;$/;"	v
+CXX	Makefile	/^  CXX = clang++$/;"	m
+CXX	Makefile	/^  CXX = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS=`sdl-config --cflags` -g -W -Wall -Weffc++ -Wextra -pedantic -O0$/;"	m
+CXX_LINK	Makefile	/^CXX_LINK = g++$/;"	m
+Clock	clock.cpp	/^Clock::Clock() :$/;"	f	class:Clock
+Clock	clock.cpp	/^Clock::Clock(const Clock& c) :$/;"	f	class:Clock
+Clock	clock.h	/^class Clock {$/;"	c
+DIAFILES	docs/figures/Makefile	/^DIAFILES=\\$/;"	m
+DRAWABLE__H	drawable.h	2;"	d
+Drawable	drawable.h	/^  Drawable(const Drawable& s) : position(s.position), velocity(s.velocity),$/;"	f	class:Drawable
+Drawable	drawable.h	/^  Drawable(const Vector2f& pos, const Vector2f& vel, const Vector2f& mxv) : $/;"	f	class:Drawable
+Drawable	drawable.h	/^class Drawable {$/;"	c
+EPSFILES	docs/figures/Makefile	/^EPSFILES=\\$/;"	m
+EXEC	Makefile	/^EXEC = run$/;"	m
+FIGDIR	docs/Makefile	/^FIGDIR = figures$/;"	m
+FRAME_INTERVAL	multisprite.cpp	/^const int FRAME_INTERVAL = 30;$/;"	v
+FRAME__H	frame.h	2;"	d
+Frame	frame.cpp	/^Frame::Frame( SDL_Surface* spr, Uint16 sprite_width, Uint16 sprite_height,$/;"	f	class:Frame
+Frame	frame.cpp	/^Frame::Frame( const Frame& frame ) :$/;"	f	class:Frame
+Frame	frame.h	/^class Frame {$/;"	c
+GAMEDATA__H	gamedata.h	2;"	d
+Gamedata	gamedata.cpp	/^Gamedata::Gamedata(const string& fn ) :$/;"	f	class:Gamedata
+Gamedata	gamedata.h	/^class Gamedata {$/;"	c
+IOManager	ioManager.cpp	/^IOManager::IOManager( ) :$/;"	f	class:IOManager
+IOManager	ioManager.h	/^class IOManager {$/;"	c
+LDFLAGS	Makefile	/^LDFLAGS = `sdl-config --libs` -lSDL_ttf -lSDL_image -lexpat$/;"	m
+MAX_STRING_SIZE	ioManager.h	/^  const unsigned MAX_STRING_SIZE;$/;"	m	class:IOManager
+MULTISPRITE__H	multisprite.h	2;"	d
+Manager	manager.cpp	/^Manager::Manager() :$/;"	f	class:Manager
+Manager	manager.h	/^class Manager {$/;"	c
+MultiframeSprite	multisprite.cpp	/^MultiframeSprite::MultiframeSprite(const MultiframeSprite& s) :$/;"	f	class:MultiframeSprite
+MultiframeSprite	multisprite.cpp	/^MultiframeSprite::MultiframeSprite(const Vector2f& pos, $/;"	f	class:MultiframeSprite
+MultiframeSprite	multisprite.h	/^class MultiframeSprite : public Drawable {$/;"	c
+NUMBER_FRAMES	multisprite.cpp	/^const int NUMBER_FRAMES = 4;$/;"	v
+OBJS	Makefile	/^OBJS = \\$/;"	m
+PAPER	docs/Makefile	/^PAPER  = paper$/;"	m
+PARSEXML__H	parseXML.h	2;"	d
+PDFFILES	docs/figures/Makefile	/^PDFFILES=\\$/;"	m
+PLOTFILES	docs/figures/Makefile	/^PLOTFILES=\\$/;"	m
+ParseXML	parseXML.h	/^  ParseXML( const string& fn ) : $/;"	f	class:ParseXML
+ParseXML	parseXML.h	/^class ParseXML {$/;"	c
+SHELL	docs/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SINGLE__H	ioManager.h	2;"	d
+SPRITE__H	sprite.h	2;"	d
+SessionLoad	Session.vim	/^let SessionLoad = 1$/;"	v
+Sprite	sprite.cpp	/^Sprite::Sprite(const Sprite& s) :$/;"	f	class:Sprite
+Sprite	sprite.cpp	/^Sprite::Sprite(const Vector2f& pos, const Vector2f& vel, $/;"	f	class:Sprite
+Sprite	sprite.h	/^class Sprite : public Drawable {$/;"	c
+TEXCMD	docs/Makefile	/^TEXCMD=TEXINPUTS=".:latex:" pdflatex$/;"	m
+TEXFILES	docs/Makefile	/^TEXFILES=\\$/;"	m
+VECTOR2F__H	vector2f.h	2;"	d
+VIEWPORT__H	viewport.h	2;"	d
+Vector2f	vector2f.cpp	/^Vector2f::Vector2f(float x, float y) {$/;"	f	class:Vector2f
+Vector2f	vector2f.h	/^class Vector2f {$/;"	c
+Viewport	viewport.cpp	/^Viewport::Viewport() : $/;"	f	class:Viewport
+Viewport	viewport.h	/^class Viewport {$/;"	c
+WALL_BOTTOM	sprite.cpp	/^const Vector2f WALL_BOTTOM = Vector2f(0, -1);$/;"	v
+WALL_LEFT	sprite.cpp	/^const Vector2f WALL_LEFT = Vector2f(-1, 0);$/;"	v
+WALL_RIGHT	sprite.cpp	/^const Vector2f WALL_RIGHT = Vector2f(1, 0);$/;"	v
+WALL_TOP	sprite.cpp	/^const Vector2f WALL_TOP = Vector2f(0, 1);$/;"	v
+World	world.h	/^  World(Frame* const frame, int fact = 1) : $/;"	f	class:World
+World	world.h	/^class World {$/;"	c
+X	drawable.h	/^  float X() const { return position[0]; }$/;"	f	class:Drawable
+X	drawable.h	/^  void X(float x) { position[0] = x; }$/;"	f	class:Drawable
+X	viewport.h	/^  float X() const { return position[0]; }$/;"	f	class:Viewport
+X	viewport.h	/^  void X(float x) { position[0] = x; }$/;"	f	class:Viewport
+Y	drawable.h	/^  float Y() const { return position[1]; }$/;"	f	class:Drawable
+Y	drawable.h	/^  void Y(float y) { position[1] = y; }$/;"	f	class:Drawable
+Y	viewport.h	/^  float Y() const { return position[1]; }$/;"	f	class:Viewport
+Y	viewport.h	/^  void Y(float y) { position[1] = y; }$/;"	f	class:Viewport
+advanceFrame	multisprite.cpp	/^void MultiframeSprite::advanceFrame(Uint32 ticks) {$/;"	f	class:MultiframeSprite
+backSurface	manager.h	/^  SDL_Surface * const backSurface;$/;"	m	class:Manager
+buff	parseXML.h	/^  char buff[BUFSIZE];$/;"	m	class:ParseXML
+buildString	ioManager.cpp	/^void IOManager::buildString(SDL_Event event) {$/;"	f	class:IOManager
+chars	parseXML.cpp	/^void ParseXML::chars(const char *text, int textlen) {$/;"	f	class:ParseXML
+clearString	ioManager.h	/^  void clearString() { inputString = ""; }$/;"	f	class:IOManager
+clock	manager.h	/^  Clock& clock;$/;"	m	class:Manager
+cross	vector2f.cpp	/^Vector2f Vector2f::cross(const Vector2f &) const {$/;"	f	class:Vector2f
+currTicks	clock.h	/^  unsigned currTicks;$/;"	m	class:Clock
+currentFrame	multisprite.h	/^  unsigned currentFrame;$/;"	m	class:MultiframeSprite
+currentOrb	manager.h	/^  unsigned currentOrb;$/;"	m	class:Manager
+debug	clock.cpp	/^void Clock::debug( ) { $/;"	f	class:Clock
+displayData	gamedata.cpp	/^void Gamedata::displayData() const {$/;"	f	class:Gamedata
+displayData	parseXML.cpp	/^void ParseXML::displayData() const {$/;"	f	class:ParseXML
+dot	vector2f.cpp	/^float Vector2f::dot(const Vector2f &other) const {$/;"	f	class:Vector2f
+draw	frame.cpp	/^void Frame::draw(Sint16 sx, Sint16 sy, Sint16 dx, Sint16 dy) const {$/;"	f	class:Frame
+draw	frame.cpp	/^void Frame::draw(Sint16 x, Sint16 y) const {$/;"	f	class:Frame
+draw	manager.cpp	/^void Manager::draw() const {$/;"	f	class:Manager
+draw	multisprite.cpp	/^void MultiframeSprite::draw() const { $/;"	f	class:MultiframeSprite
+draw	sprite.cpp	/^void Sprite::draw() const { $/;"	f	class:Sprite
+draw	world.cpp	/^void World::draw() const { $/;"	f	class:World
+dt	multisprite.h	/^  float dt;$/;"	m	class:MultiframeSprite
+end	parseXML.h	/^  void end(const char *) {}$/;"	f	class:ParseXML
+env	manager.h	/^  const bool env;$/;"	m	class:Manager
+factor	world.h	/^  int factor;$/;"	m	class:World
+filename	parseXML.h	/^  const string filename;$/;"	m	class:ParseXML
+font	ioManager.h	/^  TTF_Font *font;$/;"	m	class:IOManager
+frame	sprite.h	/^  const Frame * frame;$/;"	m	class:Sprite
+frame1	world.h	/^  Frame const frame1;$/;"	m	class:World
+frame2	world.h	/^  Frame const frame2;$/;"	m	class:World
+frameInterval	multisprite.h	/^  unsigned frameInterval;$/;"	m	class:MultiframeSprite
+frameWidth	world.h	/^  unsigned frameWidth;$/;"	m	class:World
+frames	clock.h	/^  unsigned frames;$/;"	m	class:Clock
+frames	multisprite.h	/^  const std::vector<Frame *> frames;$/;"	m	class:MultiframeSprite
+gameData	gamedata.h	/^  const map<string, string> gameData;$/;"	m	class:Gamedata
+gdata	ioManager.h	/^  const Gamedata* gdata;$/;"	m	class:IOManager
+gdata	manager.h	/^  const Gamedata* gdata;$/;"	m	class:Manager
+gdata	viewport.h	/^  Gamedata* const gdata;$/;"	m	class:Viewport
+getCenter	sprite.h	/^  Vector2f getCenter() const { $/;"	f	class:Sprite
+getDistance	sprite.cpp	/^int Sprite::getDistance(const Sprite *obj) const { $/;"	f	class:Sprite
+getElapsedTicks	clock.cpp	/^unsigned Clock::getElapsedTicks() { $/;"	f	class:Clock
+getFps	clock.cpp	/^int Clock::getFps() const { $/;"	f	class:Clock
+getFrame	multisprite.h	/^  virtual const Frame* getFrame() const { return frames[currentFrame]; }$/;"	f	class:MultiframeSprite
+getFrame	sprite.h	/^  virtual const Frame* getFrame() const { return frame; }$/;"	f	class:Sprite
+getFrames	clock.h	/^  unsigned getFrames() const  { return frames;  }$/;"	f	class:Clock
+getHeight	frame.h	/^  Uint16 getHeight() const { return spriteHeight; }$/;"	f	class:Frame
+getInstance	clock.cpp	/^Clock& Clock::getInstance() {$/;"	f	class:Clock
+getInstance	gamedata.cpp	/^Gamedata* Gamedata::getInstance() {$/;"	f	class:Gamedata
+getInstance	ioManager.cpp	/^IOManager& IOManager::getInstance() {$/;"	f	class:IOManager
+getInstance	viewport.cpp	/^Viewport& Viewport::getInstance() {$/;"	f	class:Viewport
+getLastTag	parseXML.h	/^  const string& getLastTag() const { return lastTag; }$/;"	f	class:ParseXML
+getMaxVelocity	drawable.h	/^  const Vector2f& getMaxVelocity() const { return maxVelocity; }$/;"	f	class:Drawable
+getName	multisprite.h	/^  const string& getName() const { return name; }$/;"	f	class:MultiframeSprite
+getName	sprite.h	/^  const string& getName() const { return name; }$/;"	f	class:Sprite
+getNextToLastTag	parseXML.h	/^  const string& getNextToLastTag() const { return nextToLastTag; }$/;"	f	class:ParseXML
+getObjectToTrack	viewport.h	/^  const MultiframeSprite* getObjectToTrack() const { return objectToTrack; } $/;"	f	class:Viewport
+getPixel	sprite.cpp	/^unsigned Sprite::getPixel(Uint32 i, Uint32 j) const { $/;"	f	class:Sprite
+getPosition	drawable.h	/^  const Vector2f& getPosition() const { return position; }$/;"	f	class:Drawable
+getScreen	ioManager.h	/^  SDL_Surface * getScreen() const { return screen; }$/;"	f	class:IOManager
+getSeconds	clock.h	/^  unsigned getSeconds() const { return getTicks()\/1000;  }$/;"	f	class:Clock
+getSourceX	frame.h	/^  Uint16 getSourceX() const { return spriteSourceX; }$/;"	f	class:Frame
+getSourceY	frame.h	/^  Uint16 getSourceY() const { return spriteSourceY; }$/;"	f	class:Frame
+getString	ioManager.h	/^  const string& getString() const { return inputString; }$/;"	f	class:IOManager
+getSurface	frame.h	/^  SDL_Surface* getSurface() const { return spriteSurface; }$/;"	f	class:Frame
+getTicks	clock.cpp	/^unsigned Clock::getTicks() const { $/;"	f	class:Clock
+getVelocity	drawable.h	/^  const Vector2f& getVelocity() const { return velocity; }$/;"	f	class:Drawable
+getWidth	frame.h	/^  Uint16 getWidth()  const { return spriteWidth; }$/;"	f	class:Frame
+getXmlBool	gamedata.cpp	/^bool Gamedata::getXmlBool(const string& tag) const {$/;"	f	class:Gamedata
+getXmlData	parseXML.h	/^  const map<string, string> getXmlData() const { return xmlData; }$/;"	f	class:ParseXML
+getXmlFloat	gamedata.cpp	/^float Gamedata::getXmlFloat(const string& tag) const {$/;"	f	class:Gamedata
+getXmlFloat	parseXML.cpp	/^float ParseXML::getXmlFloat(const string& tag) const {$/;"	f	class:ParseXML
+getXmlInt	gamedata.cpp	/^int Gamedata::getXmlInt(const string& tag) const {$/;"	f	class:Gamedata
+getXmlInt	parseXML.cpp	/^int ParseXML::getXmlInt(const string& tag) const {$/;"	f	class:ParseXML
+getXmlStr	gamedata.cpp	/^const string& Gamedata::getXmlStr(const string& tag) const {$/;"	f	class:Gamedata
+getXmlStr	parseXML.cpp	/^const string& ParseXML::getXmlStr(const string& tag) const {$/;"	f	class:ParseXML
+gx	Session.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+inputString	ioManager.h	/^  string inputString;$/;"	m	class:IOManager
+instance	gamedata.h	/^  static Gamedata* instance;$/;"	m	class:Gamedata
+instance	main.cpp	/^Gamedata* Gamedata::instance;$/;"	m	class:Gamedata	file:
+io	manager.h	/^  const IOManager& io;$/;"	m	class:Manager
+isPaused	clock.h	/^  bool isPaused() const  { return paused;  }$/;"	f	class:Clock
+isStarted	clock.h	/^  bool isStarted() const { return started; }$/;"	f	class:Clock
+lastElementTag	parseXML.h	/^  string  lastElementTag;$/;"	m	class:ParseXML
+lastNonTerminal	parseXML.h	/^  string  lastNonTerminal;$/;"	m	class:ParseXML
+lastTag	parseXML.h	/^  string  lastTag;$/;"	m	class:ParseXML
+loadAndSet	ioManager.cpp	/^SDL_Surface* IOManager::loadAndSet(const string& filename, bool setcolorkey) const {$/;"	f	class:IOManager
+magnitude	vector2f.cpp	/^float Vector2f::magnitude() const {$/;"	f	class:Vector2f
+magnitudeSquared	vector2f.cpp	/^float Vector2f::magnitudeSquared() const {$/;"	f	class:Vector2f
+main	main.cpp	/^int main(int, char*[]) {$/;"	f
+makePlane	manager.cpp	/^void Manager::makePlane(int planescount) {$/;"	f	class:Manager
+maxVelocity	drawable.h	/^  Vector2f maxVelocity;$/;"	m	class:Drawable
+name	multisprite.h	/^  string name;$/;"	m	class:MultiframeSprite
+name	sprite.h	/^  string name;$/;"	m	class:Sprite
+nextToLastTag	parseXML.h	/^  string  nextToLastTag;$/;"	m	class:ParseXML
+normalize	vector2f.cpp	/^Vector2f Vector2f::normalize() const {$/;"	f	class:Vector2f
+numberOfFrames	multisprite.h	/^  unsigned numberOfFrames;$/;"	m	class:MultiframeSprite
+objHeight	viewport.h	/^  Uint16 objHeight;$/;"	m	class:Viewport
+objWidth	viewport.h	/^  Uint16 objWidth;$/;"	m	class:Viewport
+objectToTrack	viewport.h	/^  const MultiframeSprite *objectToTrack;$/;"	m	class:Viewport
+operator !=	vector2f.h	/^  bool operator!=(const Vector2f &other) const {$/;"	f	class:Vector2f
+operator *	vector2f.cpp	/^Vector2f Vector2f::operator*(float scale) const {$/;"	f	class:Vector2f
+operator *	vector2f.cpp	/^Vector2f operator*(float scale, const Vector2f &v) {$/;"	f
+operator *=	vector2f.cpp	/^const Vector2f &Vector2f::operator*=(float scale) {$/;"	f	class:Vector2f
+operator +	vector2f.cpp	/^Vector2f Vector2f::operator+(const Vector2f &other) const {$/;"	f	class:Vector2f
+operator ++	clock.cpp	/^Clock  Clock::operator++(int) { $/;"	f	class:Clock
+operator ++	clock.cpp	/^Clock& Clock::operator++() { $/;"	f	class:Clock
+operator +=	vector2f.cpp	/^const Vector2f &Vector2f::operator+=(const Vector2f &other) {$/;"	f	class:Vector2f
+operator -	vector2f.cpp	/^Vector2f Vector2f::operator-() const {$/;"	f	class:Vector2f
+operator -	vector2f.cpp	/^Vector2f Vector2f::operator-(const Vector2f &other) const {$/;"	f	class:Vector2f
+operator -=	vector2f.cpp	/^const Vector2f &Vector2f::operator-=(const Vector2f &other) {$/;"	f	class:Vector2f
+operator /	vector2f.cpp	/^Vector2f Vector2f::operator\/(float scale) const {$/;"	f	class:Vector2f
+operator /=	vector2f.cpp	/^const Vector2f &Vector2f::operator\/=(float scale) {$/;"	f	class:Vector2f
+operator <<	vector2f.cpp	/^std::ostream &operator<<(std::ostream &output, const Vector2f &v) {$/;"	f
+operator =	frame.cpp	/^Frame& Frame::operator=(const Frame& rhs) {$/;"	f	class:Frame
+operator =	sprite.cpp	/^Sprite& Sprite::operator=(const Sprite& rhs) {$/;"	f	class:Sprite
+operator =	vector2f.cpp	/^Vector2f& Vector2f::operator=(const Vector2f& rhs) {$/;"	f	class:Vector2f
+operator ==	vector2f.h	/^  bool operator==(const Vector2f &other) const {$/;"	f	class:Vector2f
+operator []	vector2f.cpp	/^float &Vector2f::operator[](int index) {$/;"	f	class:Vector2f
+operator []	vector2f.cpp	/^float Vector2f::operator[](int index) const {$/;"	f	class:Vector2f
+parseXML	parseXML.cpp	/^void ParseXML::parseXML() {$/;"	f	class:ParseXML
+parser	gamedata.h	/^  ParseXML parser;$/;"	m	class:Gamedata
+parser	parseXML.h	/^  XML_Parser parser;$/;"	m	class:ParseXML
+pause	clock.cpp	/^void Clock::pause() {$/;"	f	class:Clock
+paused	clock.h	/^  bool paused;$/;"	m	class:Clock
+plane	manager.h	/^  std::vector<MultiframeSprite*> plane;$/;"	m	class:Manager
+planeFrames	manager.h	/^  std::vector<Frame*> planeFrames;$/;"	m	class:Manager
+planeSurface	manager.h	/^  SDL_Surface *planeSurface;$/;"	m	class:Manager
+play	manager.cpp	/^void Manager::play() {$/;"	f	class:Manager
+position	drawable.h	/^  Vector2f position;$/;"	m	class:Drawable
+position	viewport.h	/^  Vector2f position;$/;"	m	class:Viewport
+prevTicks	clock.h	/^  unsigned prevTicks;$/;"	m	class:Clock
+printMessageAt	ioManager.cpp	/^void IOManager::printMessageAt(const string& msg, Uint32 x, Uint32 y) const {$/;"	f	class:IOManager
+printMessageCenteredAt	ioManager.cpp	/^void IOManager::printMessageCenteredAt( const string& msg, Uint32 y) const {$/;"	f	class:IOManager
+printMessageValueAt	ioManager.cpp	/^void IOManager::printMessageValueAt(const string& msg, T value, $/;"	f	class:IOManager
+printStringAfterMessage	ioManager.cpp	/^void IOManager::printStringAfterMessage( const string& msg,$/;"	f	class:IOManager
+s:cpo_save	Session.vim	/^let s:cpo_save=&cpo$/;"	v
+s:l	Session.vim	/^let s:l = 1 - ((0 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 16 - ((15 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 17 - ((4 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 20 - ((19 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 21 - ((17 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 25 - ((6 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 31 - ((24 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 33 - ((11 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 36 - ((32 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 4 - ((3 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 40 - ((18 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 42 - ((35 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 8 - ((1 * winheight(0) + 18) \/ 36)$/;"	v
+s:so_save	Session.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	Session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	Session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+screen	frame.h	/^  SDL_Surface * screen;$/;"	m	class:Frame
+screen	ioManager.h	/^  SDL_Surface * screen;$/;"	m	class:IOManager
+screen	manager.h	/^  SDL_Surface *screen;$/;"	m	class:Manager
+setFrame	sprite.h	/^  virtual void setFrame(const Frame* f) { frame = f; }$/;"	f	class:Sprite
+setMaxVelocity	drawable.h	/^  void setMaxVelocity(const Vector2f& vel) { maxVelocity = vel; }$/;"	f	class:Drawable
+setName	multisprite.h	/^  void setName(const string& n) { name = n; }$/;"	f	class:MultiframeSprite
+setName	sprite.h	/^  void setName(const string& n) { name = n; }$/;"	f	class:Sprite
+setObjectToTrack	viewport.cpp	/^void Viewport::setObjectToTrack(const MultiframeSprite *obj) { $/;"	f	class:Viewport
+setPosition	drawable.h	/^  void setPosition(const Vector2f& pos) { position = pos; }$/;"	f	class:Drawable
+setVelocity	drawable.h	/^  void setVelocity(const Vector2f& vel) { velocity = vel; }$/;"	f	class:Drawable
+spriteHeight	frame.h	/^  Uint16 spriteHeight;$/;"	m	class:Frame
+spriteSourceX	frame.h	/^  Sint16 spriteSourceX;$/;"	m	class:Frame
+spriteSourceY	frame.h	/^  Sint16 spriteSourceY;$/;"	m	class:Frame
+spriteSurface	frame.h	/^  SDL_Surface * spriteSurface;$/;"	m	class:Frame
+spriteWidth	frame.h	/^  Uint16 spriteWidth;$/;"	m	class:Frame
+start	clock.cpp	/^void Clock::start() { $/;"	f	class:Clock
+start	parseXML.cpp	/^void ParseXML::start(const char *el, const char *attr[]) {$/;"	f	class:ParseXML
+started	clock.h	/^  bool started;$/;"	m	class:Clock
+stripTrailWhiteSpace	parseXML.cpp	/^void ParseXML::stripTrailWhiteSpace(string& str) const {$/;"	f	class:ParseXML
+ticks	clock.h	/^  unsigned ticks;$/;"	m	class:Clock
+timeAtPause	clock.h	/^  unsigned timeAtPause;$/;"	m	class:Clock
+timeAtStart	clock.h	/^  unsigned timeAtStart;$/;"	m	class:Clock
+unpause	clock.cpp	/^void Clock::unpause() {$/;"	f	class:Clock
+update	manager.cpp	/^void Manager::update(Uint32 ticks) {$/;"	f	class:Manager
+update	multisprite.cpp	/^void MultiframeSprite::update(Uint32 ticks) { $/;"	f	class:MultiframeSprite
+update	sprite.cpp	/^void Sprite::update(Uint32 ticks) { $/;"	f	class:Sprite
+update	viewport.cpp	/^void Viewport::update() {$/;"	f	class:Viewport
+update	world.cpp	/^void World::update() {$/;"	f	class:World
+v	vector2f.h	/^  float v[2];$/;"	m	class:Vector2f
+velocity	drawable.h	/^  Vector2f velocity;$/;"	m	class:Drawable
+velocityX	drawable.h	/^  float velocityX() const { return velocity[0]; }$/;"	f	class:Drawable
+velocityX	drawable.h	/^  void velocityX(float vx) { velocity[0] = vx; }$/;"	f	class:Drawable
+velocityY	drawable.h	/^  float velocityY() const { return velocity[1]; }$/;"	f	class:Drawable
+velocityY	drawable.h	/^  void velocityY(float vy) { velocity[1] = vy; }$/;"	f	class:Drawable
+view	world.h	/^  const Viewport & view;$/;"	m	class:World
+viewHeight	ioManager.h	/^  int viewHeight;$/;"	m	class:IOManager
+viewHeight	viewport.h	/^  unsigned viewHeight;$/;"	m	class:Viewport
+viewWidth	ioManager.h	/^  int viewWidth;$/;"	m	class:IOManager
+viewWidth	viewport.h	/^  unsigned viewWidth;$/;"	m	class:Viewport
+viewX	world.h	/^  float viewX;$/;"	m	class:World
+viewY	world.h	/^  float viewY;$/;"	m	class:World
+viewport	manager.h	/^  Viewport& viewport;$/;"	m	class:Manager
+world	manager.h	/^  World world;$/;"	m	class:Manager
+worldHeight	viewport.h	/^  unsigned worldHeight;$/;"	m	class:Viewport
+worldWidth	viewport.h	/^  unsigned worldWidth;$/;"	m	class:Viewport
+worldWidth	world.h	/^  unsigned worldWidth;$/;"	m	class:World
+wrapper4Chars	parseXML.cpp	/^void ParseXML::wrapper4Chars(void *data, const char *text, int textlen) {$/;"	f	class:ParseXML
+wrapper4End	parseXML.cpp	/^void ParseXML::wrapper4End(void *data, const char *el) {$/;"	f	class:ParseXML
+wrapper4Start	parseXML.cpp	/^wrapper4Start(void *data, const char *el, const char **attr) {$/;"	f	class:ParseXML
+xmlData	parseXML.h	/^  std::map<string, string> xmlData;$/;"	m	class:ParseXML
+zt	Session.vim	/^normal! zt$/;"	m
+~Drawable	drawable.h	/^  virtual ~Drawable() {}$/;"	f	class:Drawable
+~IOManager	ioManager.h	/^  ~IOManager() { $/;"	f	class:IOManager
+~Manager	manager.cpp	/^Manager::~Manager() { $/;"	f	class:Manager
+~MultiframeSprite	multisprite.h	/^  virtual ~MultiframeSprite() { } $/;"	f	class:MultiframeSprite
+~ParseXML	parseXML.h	/^  virtual ~ParseXML() { XML_ParserFree(parser); }$/;"	f	class:ParseXML
+~Sprite	sprite.h	/^  virtual ~Sprite() { } $/;"	f	class:Sprite
+~Viewport	viewport.h	/^  ~Viewport() {  std::cout << "Blocking the view ..." << std::endl; }$/;"	f	class:Viewport

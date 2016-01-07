@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/MALLOY_870assets-2012/!svn/ver/92/projects/2/tracker
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/main.cpp
+END
+viewport.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/MALLOY_870assets-2012/!svn/ver/78/projects/2/tracker/viewport.h
+END
+drawable.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/drawable.h
+END
+world.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/MALLOY_870assets-2012/!svn/ver/80/projects/2/tracker/world.cpp
+END
+vector2f.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/vector2f.cpp
+END
+frame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/MALLOY_870assets-2012/!svn/ver/82/projects/2/tracker/frame.cpp
+END
+clock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/clock.cpp
+END
+parseXML.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/parseXML.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/MALLOY_870assets-2012/!svn/ver/92/projects/2/tracker/Makefile
+END
+world.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/MALLOY_870assets-2012/!svn/ver/80/projects/2/tracker/world.h
+END
+frame.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/frame.h
+END
+vector2f.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/vector2f.h
+END
+clock.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/clock.h
+END
+parseXML.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/parseXML.h
+END
+ioManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/ioManager.cpp
+END
+gamedata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/gamedata.cpp
+END
+sprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/sprite.cpp
+END
+ioManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/ioManager.h
+END
+gamedata.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/gamedata.h
+END
+manager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/MALLOY_870assets-2012/!svn/ver/92/projects/2/tracker/manager.cpp
+END
+sprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/MALLOY_870assets-2012/!svn/ver/77/projects/2/tracker/sprite.h
+END
+manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/MALLOY_870assets-2012/!svn/ver/92/projects/2/tracker/manager.h
+END
+viewport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/MALLOY_870assets-2012/!svn/ver/78/projects/2/tracker/viewport.cpp
+END

@@ -1,0 +1,111 @@
+#include <cmath>
+#include "manager.h"
+
+Manager::~Manager() { 
+  // These deletions eliminate "definitely lost" and
+  // "still reachable"s in Valgrind.
+  SDL_FreeSurface(redSurface);
+  SDL_FreeSurface(yellowSurface);
+  delete yelloworbFrame;
+  delete redorbFrame;
+  delete Gamedata::getInstance();
+}
+
+Manager::Manager() :
+  env( SDL_putenv(const_cast<char*>("SDL_VIDEO_CENTERED=center")) ),
+  gdata( Gamedata::getInstance() ),
+  io( IOManager::getInstance() ),
+  clock( Clock::getInstance() ),
+  screen( io.getScreen() ),
+  backSurface( io.loadAndSet(gdata->getXmlStr("back"), false) ),
+  world(new Frame(backSurface,
+                gdata->getXmlInt("viewWidth"), 
+                gdata->getXmlInt("viewHeight"), 0, 0) ),
+  viewport( Viewport::getInstance() ),
+  redSurface( io.loadAndSet(gdata->getXmlStr("redorbFile"), true) ),
+  yellowSurface( io.loadAndSet(gdata->getXmlStr("yelloworbFile"),true) ),
+  redorbFrame(new Frame(redSurface,
+                gdata->getXmlInt("redorbWidth"), 
+                gdata->getXmlInt("redorbHeight"), 0, 0)),
+  yelloworbFrame(new Frame(yellowSurface,
+                gdata->getXmlInt("yelloworbWidth"), 
+                gdata->getXmlInt("yelloworbHeight"), 0, 0)),
+  orbs(),
+  currentOrb(0)
+{
+  if (SDL_Init(SDL_INIT_VIDEO) != 0) {
+    throw string("Unable to initialize SDL: ");
+  }
+  orbs.push_back(
+    Sprite(Vector2f(gdata->getXmlInt("redorbX"), 
+                 gdata->getXmlInt("redorbY")), 
+        Vector2f(gdata->getXmlInt("redorbXspeed"),
+                 gdata->getXmlInt("redorbYspeed")),
+        "redorb", redorbFrame)
+  );
+  orbs.push_back(
+    Sprite(Vector2f(gdata->getXmlInt("yelloworbX"), 
+                 gdata->getXmlInt("yelloworbY")), 
+        Vector2f(gdata->getXmlInt("yelloworbXspeed"),
+                 gdata->getXmlInt("yelloworbYspeed")),
+        "yelloworb", yelloworbFrame)
+  );
+  viewport.setObjectToTrack(&orbs[currentOrb]);
+  atexit(SDL_Quit);
+}
+
+void Manager::draw() const {
+  world.draw();
+  io.printMessageCenteredAt("Press t to switch orbs", 10);
+  for (unsigned int i = 0; i < orbs.size(); ++i) {
+    orbs[i].draw();
+  }
+}
+
+void Manager::update(Uint32 ticks) {
+  viewport.update();
+  world.update();
+  for (unsigned int i = 0; i < orbs.size(); ++i) {
+    orbs[i].update(ticks);
+  }
+}
+
+void Manager::play() {
+  SDL_Event event;
+
+  bool done = false;
+  bool keyCatch = false;
+  while ( not done ) {
+    draw();
+    SDL_Flip(screen);
+
+    Uint32 ticks = clock.getElapsedTicks();
+    update(ticks);
+
+    SDL_PollEvent(&event);
+    if (event.type ==  SDL_QUIT) { break; }
+    if(event.type == SDL_KEYUP) { keyCatch = false; }
+    if(event.type == SDL_KEYDOWN) {
+      switch ( event.key.keysym.sym ) {
+        case SDLK_ESCAPE : done = true; break;
+        case SDLK_q      : done = true; break;
+        case SDLK_t : case SDLK_SPACE :
+          if ( !keyCatch ) {
+            keyCatch = true;
+            currentOrb = (currentOrb+1) % orbs.size(); 
+            viewport.setObjectToTrack(&orbs[currentOrb]);
+          }
+          break;
+        case SDLK_p      : {
+          if (!keyCatch) {
+            keyCatch = true;
+            if ( clock.isPaused() ) clock.unpause();
+            else clock.pause();
+          }
+          break;
+        }
+        default          : break;
+      }
+    }
+  }
+}
