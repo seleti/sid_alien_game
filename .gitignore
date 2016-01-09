@@ -31,3 +31,6 @@
 *.swo
 *.swp
 *.*~
+
+# SVN folder
+.svn
